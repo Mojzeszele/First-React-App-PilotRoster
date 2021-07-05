@@ -1,0 +1,65 @@
+
+
+.base {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background {
+  background-image: url("background.jpg");
+  width: 1024px;
+  height: 768px;
+  display: flex;
+  flex-direction: column;
+}
+.pilot-name-base {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+
+}
+.pilot-name {
+  display:flex;
+  flex-direction: column;
+  padding-right: 20px;
+  padding-top: 30px;
+  font-family: 'Stardos Stencil', cursive;
+  font-size: 25px;
+}
+.pilot-records {
+  height:100px;
+  width: 100px;
+}
+.form {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  font-family: 'Stardos Stencil', cursive;
+}
+.input {
+  font-family: 'Stardos Stencil', cursive;
+}
+.form-div {
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+  padding-left: 20px;
+}
+.records {
+  width: 100%;
+  padding-top: 85px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Stardos Stencil', cursive;
+}
+.records-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  margin-right: 150px;
+  margin-left: 150px;
+
+}
